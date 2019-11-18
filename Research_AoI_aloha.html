@@ -229,11 +229,11 @@ div.tocify {
 <div>
 <h3> Descriptions</h3>
 <p> 
-Sending status updates in a timely manner has significant importance in the Internet of Things (IoT) applications. In practice, it is not always effective to update the information as fast as possible for it may cause further delay in thenetwork queues. To measure the timeliness of information ata remote system, the concept of Age of Information (AoI) was introduced in 2011. AoI measures, at the receiving side, how much time has passed since the generation time of thelatest received packet. 
+Communication networks have witnessed rapid growth in the past few decades and they have laid a path to the integration of intelligence into cyber-physical systems, the Internet of Things, smart cities, as well as healthcare systems. Today, state-of-the-art network communication strategies are considered reliable and high speed; nevertheless, they oftendo not perform satisfactorily for time-sensitive applications. For example, in applications of remote sensing, estimation, and control, high-rate communication does not ensure timely communication of data. As a matter of fact, it is often observed that as the capacity of a system is approached, the delay increases significantly and hence so does the age of information.
 </p>
 
 <p>
-In this project, we aim to shed light on the interplay between AoI and (channel/network) coding in the context of broadcast packet erasure channels (BPECs) with feedback. From coding theory, the entire capacity region of two-user BPECs with feedback can be attained by XORing overheard packets. More precisely, suppose a packet p, intended for user 1, is broadcasted and only received at user 2. Scheduling algorithms re-transmit this packet because it is not received at its intended receiver. However, one may be able to exploit coding opportunities by tracking such packets (and this is possible through the available feedback). For example, in a similar manner, a packet q, intended for user 2, may gettransmitted and received only at receiver 1. Now instead of re-transmitting p and q in two uses of the network, one can transmit the XOR packet which is simultaneously useful for both users.
+This project considers the problem of minimizing the age of information over a random access channel. This setup is of great importance in applications such as remote estimation and control of processes observed from distributed sensors in wireless networks. For these applications, coordination and scheduling policies are not practical. Then, distributed random access transmission policies are designed and analytical results on achievable AoI in interesting regimes of operation are provided.
 </p>
 
 
@@ -243,18 +243,7 @@ In this project, we aim to shed light on the interplay between AoI and (channel/
 <div>
 <h3>Achivements</h3>
 <ul type="circle">
-<li> <b>X. Chen </b> and S. Saeedi-Bidokhti. Benefits of coding on age of information in broadcast networks, under submission. <a href="./long_Benefits of Coding on Age of Information in Broadcast Networks.pdf" style="text-decoration:none">[arXiv: 1904.10077]</a>
-
-<li>  <b>X. Chen</b> and S. Saeedi Bidokhti. Benefits of coding on age of information in broadcast networks. In <I>2019 IEEE Information Theory Workshop</I>, to appear, 2019. <a href="./short_AoI_broadcast.pdf">[PDF]</a>
-
-<li> Invited Talk: "Benefits of coding on age of information in broadcast networks", Southwest University, Chongqing, China, 08/2019. <a href="./2019summer_southwest.pdf" style="text-decoration:none">[Pictures]</a>
-
-<li> Conference Poster: "Benefits of coding on age of information in broadcast networks", <I>2019 IEEE Information Theory Workshop</I>, Visby, Sweden, 08/2019. <a href="./2019summer_Visby.pdf"> [Pictures]</a> <a href="./poster_ITW_19.pdf">[Poster]</a>
-
-<li> Conference Poster: "Benefits of coding on age of information in broadcast networks", <I>2019 IEEE International Symposium on Information Theory (ISIT)</I>, Paris, France, 07/2019.
-
-<li> Conference Poster: "Benefits of coding on age of information in broadcast networks", <I>2019 North American School of Information Theory (NASIT)</I>, Boston, USA, 07/2019.</p> 
-
+<li> <b>X. Chen </b>, H. Hassani, K. Gatsis, and S. Saeedi-Bidokhti. Age of information in random access channels with stochastic arrivals. In <I>SIGMETRICS </I>, under review.
 
 </ul>
 
