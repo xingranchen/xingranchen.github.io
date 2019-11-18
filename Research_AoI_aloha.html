@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+<style type="text/css">code{white-space: pre;}</style>
+
+<style type="text/css">
+P{margin:20px auto}
+p.one{margin:20px auto; 
+padding-left:1em
+}
+
+</style>
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 20px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+<style type="text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+
+
+
+
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
+
+
+</head>
+
+
+
+<body>
+
+<div class="div1" style=font-size:20px>
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+<font face="Times">
+<div class="fluid-row" id="header">
+<h3 style="text-align:center">Age of Information in Broadcast Channels</h3>
+</div>
+
+
+<div align="center">
+<img alt="" src="./pic_broadcast_channel.png" height="250" width="500"/>
+</div>
+
+<div>
+<h3> Descriptions</h3>
+<p> 
+Sending status updates in a timely manner has significant importance in the Internet of Things (IoT) applications. In practice, it is not always effective to update the information as fast as possible for it may cause further delay in thenetwork queues. To measure the timeliness of information ata remote system, the concept of Age of Information (AoI) was introduced in 2011. AoI measures, at the receiving side, how much time has passed since the generation time of thelatest received packet. 
+</p>
+
+<p>
+In this project, we aim to shed light on the interplay between AoI and (channel/network) coding in the context of broadcast packet erasure channels (BPECs) with feedback. From coding theory, the entire capacity region of two-user BPECs with feedback can be attained by XORing overheard packets. More precisely, suppose a packet p, intended for user 1, is broadcasted and only received at user 2. Scheduling algorithms re-transmit this packet because it is not received at its intended receiver. However, one may be able to exploit coding opportunities by tracking such packets (and this is possible through the available feedback). For example, in a similar manner, a packet q, intended for user 2, may gettransmitted and received only at receiver 1. Now instead of re-transmitting p and q in two uses of the network, one can transmit the XOR packet which is simultaneously useful for both users.
+</p>
+
+
+</div>
+
+
+<div>
+<h3>Achivements</h3>
+<ul type="circle">
+<li> <b>X. Chen </b> and S. Saeedi-Bidokhti. Benefits of coding on age of information in broadcast networks, under submission. <a href="./long_Benefits of Coding on Age of Information in Broadcast Networks.pdf" style="text-decoration:none">[arXiv: 1904.10077]</a>
+
+<li>  <b>X. Chen</b> and S. Saeedi Bidokhti. Benefits of coding on age of information in broadcast networks. In <I>2019 IEEE Information Theory Workshop</I>, to appear, 2019. <a href="./short_AoI_broadcast.pdf">[PDF]</a>
+
+<li> Invited Talk: "Benefits of coding on age of information in broadcast networks", Southwest University, Chongqing, China, 08/2019. <a href="./2019summer_southwest.pdf" style="text-decoration:none">[Pictures]</a>
+
+<li> Conference Poster: "Benefits of coding on age of information in broadcast networks", <I>2019 IEEE Information Theory Workshop</I>, Visby, Sweden, 08/2019. <a href="./2019summer_Visby.pdf"> [Pictures]</a> <a href="./poster_ITW_19.pdf">[Poster]</a>
+
+<li> Conference Poster: "Benefits of coding on age of information in broadcast networks", <I>2019 IEEE International Symposium on Information Theory (ISIT)</I>, Paris, France, 07/2019.
+
+<li> Conference Poster: "Benefits of coding on age of information in broadcast networks", <I>2019 North American School of Information Theory (NASIT)</I>, Boston, USA, 07/2019.</p> 
+
+
+</ul>
+
+</div>
+
+</div>
+</font>
+</body>
+</html>
+
