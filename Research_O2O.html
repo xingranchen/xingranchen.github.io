@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+<style type="text/css">code{white-space: pre;}</style>
+
+<style type="text/css">
+P{margin:20px auto}
+p.one{margin:20px auto; 
+padding-left:1em
+}
+
+</style>
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 20px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+<style type="text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+
+
+
+
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
+
+
+</head>
+
+
+
+<body>
+
+<div class="div1" style=font-size:20px>
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+<font face="Times">
+<div class="fluid-row" id="header">
+<h3 style="text-align:center">Online-Offline Supply Chain Management</h3>
+</div>
+
+<div>
+<img src="./cxr.jpeg" width="240" height="270" align="center"/>
+<p> 
+Online retailing has rapidly grown since 2011 in China. It seems more efficient than that by brick-and-mortar retailers. To further amend the possible drawbacks of online selling, some online retailers have set up more than one selling channel in the competing market. In this project, we consider one of online retailing modes, BOPS (buy-online and pick-up-in-store) mode. 
+</p>
+
+<p>
+The BOPS mode is an emerging business form of online–offline integration, where consumers pay for goods online and pick them up in a physical store. For example, some famous national leading retailers in China, such as Suning and Bubugao, are exploring a few integration strategies to increase customer proposition value and cut costs. These retailers allow the consumers to search and pay for the products online and pick them up in a physical store nearby. 
+</p>
+
+<p>
+As a special BOPS mode, consignment often occurs between one online retailer andanother oine retailer. In this case, the online retailer would like to cooperate withother physical store retailers to increase the volume of sales and reduce the stockingcost by consigning goods to the physical stores. Thus, an interesting issue in theBOPS mode is how to allocate the selling profit of the consignment goods between theonline and offline retailers by a contract. For example, as an online retailer, Midea, acomprehensive enterprise of domestic appliances in China, consigns its products suchas air conditioners and refrigerators to Suning supermarket, which can be regarded asan offline retailer in the BOPS mode.
+</p>
+
+<p>
+Note that in real life, customers are often inclined to buy other products sold by theoffline retailer as they go to pick up the goods by online purchase. Especially,if the consignment goods is complementary to (not a substitute for) the goods sold bythe online retailers, then extra demand can be generated from the consignment goods.Owing to existence of additional sales (cross-sales) for the offline retailer, the contract of profit allocation is necessarily involved with the selling profit of consignment goods and the cross-sale profit. Therefore, another interesting issue is to reveal what is the impact of cross-selling on the profit allocation in the BOPS mode.
+</p>
+
+
+</div>
+
+
+
+
+</div>
+</font>
+</body>
+</html>
+
