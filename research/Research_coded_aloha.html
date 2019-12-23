@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+<style type="text/css">code{white-space: pre;}</style>
+
+<style type="text/css">
+P{margin:20px auto}
+p.one{margin:20px auto; 
+padding-left:1em
+}
+
+</style>
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 20px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+<style type="text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+
+
+
+
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
+
+
+</head>
+
+
+
+<body>
+
+<div class="div1" style=font-size:20px>
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+<font face="Times">
+<div class="fluid-row" id="header">
+<h3 style="text-align:center">Non-asymptotic Coded Slotted Aloha</h3>
+</div>
+
+
+<div align="center">
+<img alt="" src="./pic_aloha.png" height="500" width="500"/>
+</div>
+
+<div>
+<h3> Description</h3>
+<p> 
+The technology of Internet of Things (IoT) has brought new challenges in the design of multi-access communication systems. In traditional networks, the number of users is small and it is hence practical to coordinate them for transmission. For example, this can be done with the help of a common clock that can be implemented through a low rate (vanishing by blocklength) communication link. In IoT applications, however, the number of users is very large, orders of magnitude larger than the blocklength. For example, in Low-Power Wide-Area Networks (LP-WANs), the number of users is in the order of tens of millions. Clearly, coordinating all the users is infeasible in such scenarios and hence communication should be assumed uncoordinated. This has motivated the key challenge of coding for massive random access communication, where senders communicate their packets in a bursty manner at random times.
+In this project, we provide a non-asymptotic analysis of CSA. The non-asymptotic regime is arguably the practical regime of interest especially in applications where delay is of importance.  
+</p>
+
+
+</div>
+
+
+<div>
+<h3>Achivements</h3>
+<ul type="circle">
+<li> M. Fereydounian, <b>X. Chen </b>, H. Hassani, and S. Saeedi-Bidokhti. Non-asymptotic coded slotted ALOHA, under submission. <a href="./Non-asymptotic Coded Slotted ALOHA.pdf" style="text-decoration:none">[available online]</a>
+
+<li>  M. Fereydounian, <b>X. Chen</b>, H. Hassani, and S. Saeedi Bidokhti. Non-asymptotic coded slotted ALOHA. In <I>2019 IEEE International Symposium on Information Theory (ISIT)</I>, to appear, 2019.</ol> <a href="./IT19_2064.pdf" style="text-decoration:none">[PDF]</a>
+
+
+<li> Conference Talk: "Non-asymptotic coded slotted aloha", <I>2019 IEEE International Symposium on Information Theory (ISIT)</I>, Paris, France, 07/2019. <a href="./France.pdf">[Pictures]</a>
+</ul>
+
+</div>
+
+</div>
+</font>
+</body>
+</html>
+
