@@ -7,8 +7,8 @@ table#tlayout {
 }
 
 body {
-	background: white;
-	font-family: Georgia, serif;
+	background: #ffffff;
+	font-family:'Inter', 'Roboto', 'Helvetica Neue', sans-serif;
 	padding-bottom: 8px;
 	margin: 0;
 }
