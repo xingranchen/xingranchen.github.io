@@ -67,6 +67,64 @@ University of Electronic Science and Technology of China, School of Information 
 <b>M.S.</b> in <I>Operations Research</I>, Central South University, 2015-2016. [transfer to Upenn]<br>
 <b>B.S.</b> in <I>Statistics</I>, Central South University, 2011-2015.<br>
 
+<!-- 插入 News 区块 -->
+<h2>Recent News</h2>
+<ul class="news" id="news-list">
+  <li>
+  <time datetime="Aug. 2025">Aug. 2025</time>
+  <span>Our paper <a href="https://arxiv.org/abs/2407.02930" style="text-decoration:none"><font color="#527bbd">Timely requesting for time-critical content users in decentralized F-RANs</font></a> has been accepted by <I>IEEE Transactions on Networking (ToN)</I></span>
+  </li>
+  <li>
+  <time datetime="Jun. 2025">Jun. 2025</time>
+  <span>Our paper <a href="https://arxiv.org/abs/2403.05007" style="text-decoration:none"><font color="#527bbd">Age of computing: a metric of computation freshness in communication and computation cooperative networks</font></a> has been accepted by <I>IEEE Transactions on Mobile Computing (TMC)</I></span>
+  </li>
+
+  <li>
+  <time datetime="May 2025">May 2025</time>
+  <span> Call for papers: The special issue <a href="https://www.mdpi.com/journal/entropy/special_issues/SNXQ5K98E6" style="text-decoration:none"><font color="#527bbd"><I>Goal-Oriented Communication: Freshness, Semantics, and Beyond</I></font></a> has been extended until Nov. 2025.</span></li>
+ 
+<li class="hidden-item">
+<time datetime="Jan. 2025">Jan. 2025</time>
+<span>I am currently a postdoctoral researcher at Rutgers University and on academic leave from the University of Electronic Science and Technology of China.</span>
+</li>
+</ul>
+
+<div class="controls">
+  <button id="toggle-btn" class="btn" aria-expanded="false" aria-controls="news-list">More</button>
+</div>
+
+<style>
+.news { list-style:none; padding:0; margin:0; }
+.news li { margin:6px 0; }
+.news time { color:#666; margin-right:8px; white-space:nowrap; }
+.hidden-item { display:none; }
+.btn { margin-top:8px; padding:6px 12px; border:1px solid #ccc; border-radius:6px; background:#fff; cursor:pointer; }
+</style>
+
+<script>
+(function(){
+  const btn = document.getElementById('toggle-btn');
+  const list = document.getElementById('news-list');
+  const extras = () => list.querySelectorAll('.hidden-item');
+
+  function setExpanded(expanded){
+    btn.setAttribute('aria-expanded', String(expanded));
+    extras().forEach(li => li.style.display = expanded ? 'list-item' : 'none');
+    btn.textContent = expanded ? 'Less' : 'More';
+  }
+
+  // 初始收起
+  setExpanded(false);
+
+  btn.addEventListener('click', () => {
+    const expanded = btn.getAttribute('aria-expanded') === 'true';
+    setExpanded(!expanded);
+  });
+})();
+</script>
+<!-- News 区块结束 -->
+
+  
 </td>
 </tr>
 </tbody></table>
