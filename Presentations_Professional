@@ -31,34 +31,14 @@ try {
 <div class="menu-item"><a href="Research_Artifacts.html">Artifacts</a></div>
 <div class="menu-category">Presentations</div>
 <div class="menu-item"><a href="Presentations_Talks.html">Invited Talks</a></div>
+<div class="menu-item"><a href="Presentations_Professional.html">Professional Talks</a></div>
 </td>
 <td id="layout-content">
 <div id="toptitle">
 <h1>Invited Talks</h1>
 </div>
 <ol>
-<li><p> Singapore University of Technology and Design (SUTD), Virtual, 2026, topic: <I>Self-Creating Random Walks for Decentralized Learning under Pac-Man Attacks</I>. <a href="./Presentations_Talks/2026_SUTD.pdf" style="text-decoration:none"><font color="#527bbd">[Pictures]</font></a>
-</p>
-</li>
-
-<li><p> Joint Mathematics Meetings (JMM), Washington, D.C., UAS, 2026, topic: <I>Random Walk Learning and the Pac-Man Attack</I>. <a href="./Presentations_Talks/2026_JMM.png" style="text-decoration:none"><font color="#527bbd">[Pictures]</font></a>
-</p>
-</li>
-  
-<li><p> Rutgers University, New Brunswick, USA, 2025, topic: <I>Random Walk Learning and the Pac-Man Attack</I>. <a href="./Presentations_Talks/2025_Rutgers.png" style="text-decoration:none"><font color="#527bbd">[Pictures]</font></a>
-</p>
-</li>
-  
-<li><p> University of Pennsylvania, Philadelphia, USA, 2024, topic: <I>Timely requesting for time-critical content users in decentralized F-RANs</I>. <a href="./Presentations_Talks/2024_upenn.jpg" style="text-decoration:none"><font color="#527bbd">[Pictures]</font></a>
-</p>
-</li>
-
-
-<li><p> Central South University, (Online, due to COVID-19), 2022, topic: <I>Timely inferences for updating decisions in networked systems</I>. <font color="#e05a4f">[Celebrating the 20th Anniversary of the School of Mathematics and Statistics]</font> <a href="./Presentations_Talks/2022_CSU.jpeg" style="text-decoration:none"><font color="#527bbd">[Pictures]</font></a>
-</p>
-</li>
-
-<li><p>Southwest University, Chongqing, China, 2019, topic: <I>Benefits of coding on age of information in broadcast networks</I>. <a href="./Presentations_Talks/2019_southwestU.pdf" style="text-decoration:none"><font color="#527bbd">[Pictures]</font></a>
+<li><p>Invited Program Talk: The 4th RINGS PI meeting, Virtual, 2026, topic: <I>Walk For Resiliency & Privacy: A Random Walk Framework for Learning at the Edge</I>. <a href="https://rings-vo.org/pi4/" style="text-decoration:none"><font color="#527bbd">[Link]</font></a>
 </p>
 </li>
 </ol>
