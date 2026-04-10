@@ -35,46 +35,44 @@ try {
 </td>
   
 <style>
-.profile-top {
-  display: flex;
-  align-items: flex-start;
-  gap: 20px;
-  margin-bottom: 20px;
-}
-
-.profile-photo {
-  width: 200px;
-  flex-shrink: 0;
-  border-radius: 8px;
-}
-
-.profile-info {
-  line-height: 1.6;
-}
-
-.profile-bio {
+.profile-block {
+  max-width: 1000px;
   line-height: 1.7;
-  text-align: justify;
+  text-align: justify;   
+}
+.profile-photo {
+  float: left;
+  width: 200px;
+  margin: 0 18px 10px 0;
+  border-radius: 6px;
+}
+.profile-block::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.profile-block p {
+  margin-top: 0;
+  margin-bottom: 0.8em;
 }
 </style>
   
 <td id="layout-content">
 <div id="toptitle">
 <h1>Xingran Chen (陈星燃)</h1>
-</div>
-<div class="profile-top">
-<img src="./CXR_files/cxr.jpg" alt="Xingran Chen" class="profile-photo">
+<div class="profile-block">
+  <img src="./CXR_files/cxr.jpg" alt="Xingran Chen" class="profile-photo">
 
-<div class="profile-info">
-<a href="https://scholar.google.com/citations?hl=en&authuser=1&user=Ir6zpu4AAAAJ" style="text-decoration:none"><font color="#527bbd">Google Scholar</font></a><br>
-<a href="./CXR_files/cxr_cv.pdf" style="text-decoration:none"><font color="#527bbd">Full CV</font></a><br>
+  <p>
+    <a href="https://scholar.google.com/citations?hl=en&authuser=1&user=Ir6zpu4AAAAJ" style="text-decoration:none; color:#527bbd;">Google Scholar</a><br>
+    <a href="./CXR_files/cxr_cv.pdf" style="text-decoration:none; color:#527bbd;">Full CV</a><br><br>
+    Email: xingranc@ieee.org<br>
+    Office: CoRE 737, Rutgers University, Piscataway Township, NJ.
+  </p>
 
-Email: xingranc@ieee.org<br>
-Office: CoRE 737, Rutgers University, Piscataway Township, NJ.
-</div>
-</div>
-<div class="profile-bio">
-<strong>Bio:</strong> Xingran Chen is a postdoctoral researcher at Rutgers University (Jan. 2025 - Apr. 2026). He is also an assistant professor (currently on leave) at the University of Electronic Science and Technology of China (Sep. 2023 - present). He earned his B.S. in Statistics (2015) from Central South University, followed by an M.A. in Applied Mathematics and Computational Science (2018) and a Ph.D. in Electrical and Systems Engineering (2023) from the University of Pennsylvania. His research focuses on learning, information, and security in decentralized networked systems. In 2023, he received the <a href="https://www.itsoc.org/honors/comsoc-information-theory-joint-paper-award" style="text-decoration:none"><font color="#527bbd">IEEE Communications Society & Information Theory Society Joint Paper Award</font></a>. He also served as a guest editor for <I>China Communications</I> in 2024, and <I>Entropy</I> in 2025.
+  <p>
+    <strong>Bio:</strong> Xingran Chen is a postdoctoral researcher at Rutgers University (Jan. 2025 - Apr. 2026). He is also an assistant professor (currently on leave) at the University of Electronic Science and Technology of China (Sep. 2023 - present). He earned his B.S. in Statistics (2015) from Central South University, followed by an M.A. in Applied Mathematics and Computational Science (2018) and a Ph.D. in Electrical and Systems Engineering (2023) from the University of Pennsylvania. His research focuses on learning, information, and security in decentralized networked systems. In 2023, he received the <a href="https://www.itsoc.org/honors/comsoc-information-theory-joint-paper-award" style="text-decoration:none; color:#527bbd;">IEEE Communications Society &amp; Information Theory Society Joint Paper Award</a>. He also served as a guest editor for <i>China Communications</i> in 2024, and <i>Entropy</i> in 2025.
+  </p>
 </div>
 
 <!-- 
