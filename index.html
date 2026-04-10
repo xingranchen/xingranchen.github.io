@@ -36,9 +36,7 @@ try {
   
 <style>
 .profile-block {
-  max-width: 1000px;
-  line-height: 1.7;
-  text-align: justify;   
+  line-height: 1.7; 
 }
 .profile-photo {
   float: left;
@@ -46,12 +44,23 @@ try {
   margin: 0 18px 10px 0;
   border-radius: 6px;
 }
+  
+.profile-photo {
+  float: left;
+  width: 200px;
+  margin: 0 18px 10px 0;
+  border-radius: 6px;
+}
+.profile-bio {
+  margin: 0;
+  text-align: justify;
+  hyphens: auto;
+}
 .profile-block::after {
   content: "";
   display: block;
   clear: both;
 }
-.profile-block p { margin:6px 0; }
 </style>
   
 <td id="layout-content">
@@ -61,14 +70,13 @@ try {
 <div class="profile-block">
   <img src="./CXR_files/cxr.jpg" alt="Xingran Chen" class="profile-photo">
 
-  <p>
+  <p class="profile-bio">
     <a href="https://scholar.google.com/citations?hl=en&authuser=1&user=Ir6zpu4AAAAJ" style="text-decoration:none; color:#527bbd;">Google Scholar</a><br>
     <a href="./CXR_files/cxr_cv.pdf" style="text-decoration:none; color:#527bbd;">Full CV</a><br><br>
     Email: xingranc@ieee.org<br>
     Office: CoRE 737, Rutgers University, Piscataway Township, NJ.
-  </p>
+  <br><br>
 
-  <p>
     <strong>Bio:</strong> Xingran Chen is a postdoctoral researcher at Rutgers University (Jan. 2025 - Apr. 2026). He is also an assistant professor (currently on leave) at the University of Electronic Science and Technology of China (Sep. 2023 - present). He earned his B.S. in Statistics (2015) from Central South University, followed by an M.A. in Applied Mathematics and Computational Science (2018) and a Ph.D. in Electrical and Systems Engineering (2023) from the University of Pennsylvania. His research focuses on learning, information, and security in decentralized networked systems. In 2023, he received the <a href="https://www.itsoc.org/honors/comsoc-information-theory-joint-paper-award" style="text-decoration:none; color:#527bbd;">IEEE Communications Society &amp; Information Theory Society Joint Paper Award</a>. He also served as a guest editor for <i>China Communications</i> in 2024, and <i>Entropy</i> in 2025.
   </p>
 </div>
